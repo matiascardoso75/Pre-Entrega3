@@ -1,0 +1,21 @@
+$rojo: #dc143c;
+$negro: #000000;
+
+.navbar{
+    background-color: $negro;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    .navbar-brand img{
+        height: 80px;
+    }
+
+    .nav-link{
+        color: $rojo !important;
+    }
+
+    .nav-link:hover{
+        color: rgba(220, 20, 60, 0.459) !important;
+    }
+}

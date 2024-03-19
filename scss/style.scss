@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap');
+
+@import 'navbar';
+@import 'footer';
+@import 'galeria';
+@import 'eventos';
+@import 'lugar';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// colores
+$rojo: #dc143c;
+$negro: #000000;
+// colores end
+
+.btn{
+    background-color: $rojo;
+    text-transform: uppercase;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    color: $negro;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    color: crimson;
+}
+
+
+main{
+    background-image: url(../img/background.jpg);
+}
+
+// index
+.titulo{
+    height: 89%;
+    background-image: url(../img/audience-1867754_1920.jpg);
+
+    & h1{
+        text-transform: uppercase;
+        font-size: 90px;
+        font-family: 'Advent Pro', sans-serif;
+        margin-bottom: 200px;
+        user-select: none;
+    }
+}
+
+
+.info-contenedor{
+
+    & .nleft{
+        background-image: url(../img/1.png);
+        background-size: cover;
+        object-fit: cover;
+        border: 2px solid $negro;
+    }
+
+    & .nright{
+        background-image: url(../img/background.jpg);
+        color: $rojo;
+        font-family: 'Abel', sans-serif;
+        font-size: 30px;
+        padding-bottom: 20px;
+        border: 2px solid $negro;
+
+        & h2{
+            padding-top: 40px;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        & p{
+            padding-top: 40px;
+            text-align: center;
+        }
+    }
+}
+
+

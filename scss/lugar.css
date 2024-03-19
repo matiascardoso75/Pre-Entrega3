@@ -1,0 +1,37 @@
+.cont-img .desc-left img {
+  height: 700px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cont-img .desc-right p {
+  height: 700px;
+  color: crimson;
+  background-color: black;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+  border: 2px crimson solid;
+  overflow: hidden;
+}
+
+.desc-content {
+  background-color: crimson;
+  margin-top: 30px;
+}
+.desc-content .desc-items {
+  border: 2px solid black;
+  padding: 15px;
+  font-family: "Abel", sans-serif;
+}
+.desc-content .desc-items h3 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: black;
+}
+.desc-content .desc-items p {
+  font-size: 20px;
+  color: black;
+}/*# sourceMappingURL=lugar.css.map */

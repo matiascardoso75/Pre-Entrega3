@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap");
+.navbar {
+  background-color: #000000;
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand img {
+  height: 80px;
+}
+.navbar .nav-link {
+  color: #dc143c !important;
+}
+.navbar .nav-link:hover {
+  color: rgba(220, 20, 60, 0.459) !important;
+}
+
+footer {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  color: #dc143c;
+  background-color: #000000;
+}
+
+.gallery {
+  padding: 80px 0;
+}
+
+.galeria-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 500px;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.galeria-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.galeria-item:nth-child(4) {
+  grid-column-start: span 2;
+}
+
+.galeria-item:nth-child(5) {
+  grid-row-start: span 2;
+}
+
+.galeria-item:nth-child(9) {
+  grid-column-start: span 2;
+}
+
+@media (max-width: 768px) {
+  .galeria-cont {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .galeria-item:nth-child(3) {
+    grid-column-start: span 2;
+  }
+  .galeria-item:nth-child(5) {
+    grid-row-start: span 2;
+  }
+  .galeria-item:nth-child(8) {
+    grid-column-start: span 2;
+  }
+}
+@media (max-width: 573px) {
+  .galeria-cont {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.card-container .card-body, .card-container .card {
+  background-color: rgba(0, 0, 0, 0.281);
+  color: crimson;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #dc143c;
+  text-transform: uppercase;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 25px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  padding: 40px;
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  font-size: 50px;
+  color: crimson;
+}
+
+main {
+  background-image: url(../img/background.jpg);
+}
+
+.titulo {
+  height: 89%;
+  background-image: url(../img/audience-1867754_1920.jpg);
+}
+.titulo h1 {
+  text-transform: uppercase;
+  font-size: 90px;
+  font-family: "Advent Pro", sans-serif;
+  margin-bottom: 200px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.info-contenedor .nleft {
+  background-image: url(../img/1.png);
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #000000;
+}
+.info-contenedor .nright {
+  background-image: url(../img/background.jpg);
+  color: #dc143c;
+  font-family: "Abel", sans-serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+  border: 2px solid #000000;
+}
+.info-contenedor .nright h2 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 60px;
+}
+.info-contenedor .nright p {
+  padding-top: 40px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
