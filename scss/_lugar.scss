@@ -1,49 +1,52 @@
-.cont-img{
+@import 'global';
 
-    & .desc-left{
 
-        & img{
+.desc-img{
+
+    .desc-left{
+
+        img{
             height: 700px;
             width: 100%;
             object-fit: cover;
         }
     }
 
-    & .desc-right{
+    .desc-right{
 
-        & p{
+        p{
             height: 700px;
-            color: crimson;
-            background-color: black;
+            color: $rojo;
+            background-color: $negro;
             font-family: 'Advent Pro', sans-serif;
             font-size: 40px;
             padding: 30px;
             text-align: center;
-            border: 2px crimson solid;
+            border: 2px $rojo solid;
             overflow: hidden;
         }
     }
 }
 
 .desc-content{
-    background-color: crimson;
+    background-color: $rojo;
     margin-top: 30px;
 
-    & .desc-items{
-        border: 2px solid black;
+    .desc-items{
+        border: 2px solid $negro;
         padding: 15px;
         font-family: 'Abel', sans-serif;
 
-        & h3{
+        h3{
             text-align: center;
             font-size: 40px;
             text-transform: uppercase;
-            color: black;
+            color: $negro;
         }
 
-        & p{
+        p{
             font-size: 20px;
-            color: black;
+            color: $negro;
         }
     }
 }

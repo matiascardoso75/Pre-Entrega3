@@ -75,7 +75,52 @@ footer {
 }
 .card-container .card-body, .card-container .card {
   background-color: rgba(0, 0, 0, 0.281);
-  color: crimson;
+  color: #dc143c;
+}
+
+.desc-img .desc-left img {
+  height: 700px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.desc-img .desc-right p {
+  height: 700px;
+  color: #dc143c;
+  background-color: #000000;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+  border: 2px #dc143c solid;
+  overflow: hidden;
+}
+
+.desc-content {
+  background-color: #dc143c;
+  margin-top: 30px;
+}
+.desc-content .desc-items {
+  border: 2px solid #000000;
+  padding: 15px;
+  font-family: "Abel", sans-serif;
+}
+.desc-content .desc-items h3 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.desc-content .desc-items p {
+  font-size: 20px;
+  color: #000000;
+}
+
+.row .direccion-container ul .direccion {
+  color: #dc143c;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
 * {
@@ -97,6 +142,7 @@ footer {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 h2 {
@@ -104,7 +150,7 @@ h2 {
   text-transform: uppercase;
   font-family: "Abel", sans-serif;
   font-size: 50px;
-  color: crimson;
+  color: #dc143c;
 }
 
 main {
@@ -125,14 +171,14 @@ main {
           user-select: none;
 }
 
-.info-contenedor .nleft {
+.info-contenedor .row .nleft {
   background-image: url(../img/1.png);
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
   border: 2px solid #000000;
 }
-.info-contenedor .nright {
+.info-contenedor .row .nright {
   background-image: url(../img/background.jpg);
   color: #dc143c;
   font-family: "Abel", sans-serif;
@@ -140,12 +186,12 @@ main {
   padding-bottom: 20px;
   border: 2px solid #000000;
 }
-.info-contenedor .nright h2 {
+.info-contenedor .row .nright h2 {
   padding-top: 40px;
   text-align: center;
   font-size: 60px;
 }
-.info-contenedor .nright p {
+.info-contenedor .row .nright p {
   padding-top: 40px;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */

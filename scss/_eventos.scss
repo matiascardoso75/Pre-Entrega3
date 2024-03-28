@@ -1,8 +1,11 @@
+@import 'global';
+
+
 .card-container{
 
     & .card-body, .card{
         background-color: rgba(0, 0, 0, 0.281);
-        color: crimson;
+        color: $rojo;
     }
 
 }

@@ -1,0 +1,19 @@
+@import 'global';
+
+
+.row {
+
+    .direccion-container {
+
+        ul {
+
+            .direccion {
+                color: $rojo;
+                list-style: none;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        }
+
+    }
+}
