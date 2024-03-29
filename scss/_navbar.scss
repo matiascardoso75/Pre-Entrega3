@@ -12,9 +12,11 @@
 
     .nav-link{
         color: $rojo !important;
+        transition: transform 100ms;
     }
 
     .nav-link:hover{
         color: rgba(220, 20, 60, 0.459) !important;
+        transform: scale(1.1);
     }
 }

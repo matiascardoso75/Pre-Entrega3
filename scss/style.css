@@ -1,5 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Advent Pro" sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #dc143c;
+  font-weight: 400;
+  margin-top: 25px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  transition: transform 100ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Abel" sans-serif;
+  font-size: 50px;
+  color: #dc143c;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+main {
+  background-image: url(../img/background.webp);
+}
+
 .navbar {
   background-color: #000000;
   font-family: "Abel", sans-serif;
@@ -11,9 +49,49 @@
 }
 .navbar .nav-link {
   color: #dc143c !important;
+  transition: transform 100ms;
 }
 .navbar .nav-link:hover {
   color: rgba(220, 20, 60, 0.459) !important;
+  transform: scale(1.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Advent Pro" sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #dc143c;
+  font-weight: 400;
+  margin-top: 25px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  transition: transform 100ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Abel" sans-serif;
+  font-size: 50px;
+  color: #dc143c;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+main {
+  background-image: url(../img/background.webp);
 }
 
 footer {
@@ -21,6 +99,44 @@ footer {
   font-weight: 800;
   color: #dc143c;
   background-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Advent Pro" sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #dc143c;
+  font-weight: 400;
+  margin-top: 25px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  transition: transform 100ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Abel" sans-serif;
+  font-size: 50px;
+  color: #dc143c;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+main {
+  background-image: url(../img/background.webp);
 }
 
 .gallery {
@@ -73,9 +189,85 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Advent Pro" sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #dc143c;
+  font-weight: 400;
+  margin-top: 25px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  transition: transform 100ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Abel" sans-serif;
+  font-size: 50px;
+  color: #dc143c;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+main {
+  background-image: url(../img/background.webp);
+}
+
 .card-container .card-body, .card-container .card {
   background-color: rgba(0, 0, 0, 0.281);
   color: #dc143c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Advent Pro" sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #dc143c;
+  font-weight: 400;
+  margin-top: 25px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  transition: transform 100ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Abel" sans-serif;
+  font-size: 50px;
+  color: #dc143c;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+main {
+  background-image: url(../img/background.webp);
 }
 
 .desc-img .desc-left img {
@@ -116,11 +308,57 @@ footer {
   color: #000000;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Advent Pro" sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #dc143c;
+  font-weight: 400;
+  margin-top: 25px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  transition: transform 100ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Abel" sans-serif;
+  font-size: 50px;
+  color: #dc143c;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+main {
+  background-image: url(../img/background.webp);
+}
+
 .row .direccion-container ul .direccion {
   color: #dc143c;
   list-style: none;
   text-transform: uppercase;
   font-size: 30px;
+}
+
+.input-box input, .input-box textarea {
+  border-radius: 4px;
+  border: 2px solid #000000;
+  padding: 2px;
+  box-shadow: 0px 0px 10px grey;
+  margin-bottom: 4px;
 }
 
 * {
@@ -130,14 +368,18 @@ footer {
 }
 
 .btn {
-  background-color: #dc143c;
-  text-transform: uppercase;
-  font-family: "Advent Pro", sans-serif;
-  font-weight: 800;
+  font-family: "Advent Pro" sans-serif;
   font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #dc143c;
+  font-weight: 400;
   margin-top: 25px;
   box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
-  color: #000000;
+  transition: transform 100ms;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
 
 a {
@@ -146,25 +388,26 @@ a {
 }
 
 h2 {
-  padding: 40px;
-  text-transform: uppercase;
-  font-family: "Abel", sans-serif;
+  font-family: "Abel" sans-serif;
   font-size: 50px;
   color: #dc143c;
+  text-transform: uppercase;
+  padding: 40px;
 }
 
 main {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background.webp);
 }
 
 .titulo {
   height: 89%;
-  background-image: url(../img/audience-1867754_1920.jpg);
+  background-image: url(../img/audience-1867754_1920.webp);
 }
 .titulo h1 {
-  text-transform: uppercase;
+  font-family: "Advent Pro" sans-serif;
   font-size: 90px;
-  font-family: "Advent Pro", sans-serif;
+  color: rgb(52, 53, 51);
+  text-transform: uppercase;
   margin-bottom: 200px;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -172,14 +415,14 @@ main {
 }
 
 .info-contenedor .row .nleft {
-  background-image: url(../img/1.png);
+  background-image: url(../img/1.webp);
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
   border: 2px solid #000000;
 }
 .info-contenedor .row .nright {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background.webp);
   color: #dc143c;
   font-family: "Abel", sans-serif;
   font-size: 30px;

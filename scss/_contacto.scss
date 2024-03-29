@@ -17,3 +17,14 @@
 
     }
 }
+
+.input-box{
+
+    input, textarea{
+        border-radius: 4px;
+        border: 2px solid $negro;
+        padding: 2px;
+        box-shadow: 0px 0px 10px grey;
+        margin-bottom: 4px;
+    }
+}

@@ -1,2 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// colores
 $rojo: #dc143c;
 $negro: #000000;
+// colores end
+
+// mixins
+@mixin caja-font($font, $size, $color, $mayus){
+    font-family: $font;
+    font-size: $size;
+    color: $color;
+    text-transform: $mayus;
+}
+// mixins end
+
+.btn{
+    @include caja-font('Advent Pro' sans-serif, 30px, $negro, uppercase);
+    background-color: $rojo;
+    font-weight: 400;
+    margin-top: 25px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    transition: transform 100ms;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+a{
+    text-decoration: none;
+    color:  $negro;
+}
+
+h2{
+    @include caja-font('Abel' sans-serif, 50px, $rojo, uppercase);
+    padding: 40px;
+}
+
+
+main{
+    background-image: url(../img/background.webp);
+}
